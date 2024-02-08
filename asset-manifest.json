@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/unsplash-app/static/css/main.005fa6d8.css",
+    "main.js": "/unsplash-app/static/js/main.5f205240.js",
+    "static/js/787.12e913cb.chunk.js": "/unsplash-app/static/js/787.12e913cb.chunk.js",
+    "static/media/hero-image.png": "/unsplash-app/static/media/hero-image.69f32b40c48e9dd640a3.png",
+    "static/media/gradiend-bg@2x.png": "/unsplash-app/static/media/gradiend-bg@2x.3e28be8b6847537b3323.png",
+    "static/media/Logo.svg": "/unsplash-app/static/media/Logo.b725888507fdf42be9cd844436c5e548.svg",
+    "index.html": "/unsplash-app/index.html",
+    "static/media/Search.svg": "/unsplash-app/static/media/Search.7e1db4bb08feb047e807605f6c9aad4b.svg",
+    "main.005fa6d8.css.map": "/unsplash-app/static/css/main.005fa6d8.css.map",
+    "main.5f205240.js.map": "/unsplash-app/static/js/main.5f205240.js.map",
+    "787.12e913cb.chunk.js.map": "/unsplash-app/static/js/787.12e913cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.005fa6d8.css",
+    "static/js/main.5f205240.js"
+  ]
+}
