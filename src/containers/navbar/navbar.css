@@ -1,0 +1,27 @@
+.navbar__container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    border-bottom:2px solid #E5E7EBCC ;
+    
+}
+.navbar__menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+ color: #6C727F; 
+ cursor: pointer;
+ font-size: 0.875rem;
+ 
+}
+.active{
+    padding: 8px 14px;
+    background: #E5E7EBCC;
+    border-radius: 4px;
+    color: #121826;
+}

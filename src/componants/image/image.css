@@ -1,0 +1,11 @@
+.image__wrapper{
+    display: block;
+ padding:4px ;
+
+}
+.image__wrapper img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+}

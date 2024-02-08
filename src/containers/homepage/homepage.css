@@ -1,0 +1,22 @@
+.homepage__container{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background:url('../../assets/hero-image.png') center  no-repeat ;
+     background-size:cover;
+    flex-direction: column; 
+     color: #121826;
+}
+.homepage__container h1{
+    font-size:  2.25rem;
+    font-weight: 600;
+    margin: -90px 0 0;
+  
+}
+.homepage__container p{
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 8px 0 20px 0;
+}

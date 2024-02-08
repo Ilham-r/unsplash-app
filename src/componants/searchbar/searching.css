@@ -1,0 +1,26 @@
+.searching-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    border:1px solid #E5E7EBCC;
+    padding: 6px;
+    box-shadow: 2px 2px 10px #E5E7EBCC;
+    border-radius: 4px;
+    background-color: #fff;
+
+}
+.searching-input input{
+    width: 400px;
+    padding: 8px 0 8px 4px;
+    border: none;
+    
+   
+}
+.searching-input input:focus{
+    outline: none;
+    border: none;
+}
+.searching-input img{
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+
+.collectionbar__container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+  
+}
+
+.collectionbar__container:hover {
+    background-color: #E5E7EBCC;
+    border-radius: 12px;
+}
+.collectionbar__container img{
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+}
+.collectionbar__container_desc{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.collectionbar__container_desc p{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}
+.collectionbar__container_desc p:last-child{
+    font-size: 0.75rem;
+    color: #6C727F;
+   font-weight: 100;
+   margin-top: 4px;
+    
+}
+
+

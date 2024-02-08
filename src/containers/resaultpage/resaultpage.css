@@ -1,0 +1,38 @@
+.resault__container{
+    display:flex;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    margin-top: -30px;
+    background: url('../../assets/gradiend-bg@2x.png') no-repeat top;
+    background-size: contain;
+    padding: 5%;
+    flex-direction: column;
+    gap :30px;
+ 
+}
+
+
+.resault__container-images_wrapper{
+    margin-top: 30px;
+    column-count: 4;
+    column-width: 21%;
+    gap: 8px;
+}
+.image__wrp {
+    transition: transform 0.3s; 
+  }
+  
+  .image__wrp:hover {
+    transform: scale(1.1);
+  }
+ @media screen and (max-width:1024px) {
+    .resault__container-images_wrapper{
+        column-count: 3;
+    }
+ }
+ @media screen and (max-width:640px) {
+    .resault__container-images_wrapper{
+        column-count: 2;
+    }
+ }
