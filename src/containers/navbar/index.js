@@ -9,9 +9,9 @@ const Navbar = () => {
 
     const handleButtonClick = (route) => {
         setActive(route === 'Home'); 
-    if(route==='Home'){
-        navigate(`/`); 
-    }else{
+        if(route === 'Home'){
+            navigate(`/`);
+        }else{
         navigate(`/${route}`);}
     };
 
