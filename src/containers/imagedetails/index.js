@@ -5,6 +5,15 @@ import {DownloadForOfflineOutlined} from '@mui/icons-material';
 import CollectionBar from '../../componants/collectionBar'
 import { saveAs } from 'file-saver';
 const ImageDetails = () => {
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const options = {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+    };
+    return date.toLocaleString('en-US', options);
+  };
   const location = useLocation();
   const dataList = location?.state?.dataList || [];
   const handleDownload = () => {
@@ -22,7 +31,7 @@ const ImageDetails = () => {
       <p>{dataList[3]}</p>
       </div>
       <p className="image__desc-publishing">
-        {dataList[1]}
+       Published On {formatDate(dataList[1])}
       </p>
       <div className="image__desc-buttons">
         <div onClick={handleDownload}> <DownloadForOfflineOutlined/>Download</div>
