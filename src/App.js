@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes , Navigate} from 'react-router-dom';
 import './App.css';
 import Navbar from './containers/navbar';
 import Homepage from './containers/homepage';
@@ -15,7 +15,8 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Navigate to="/home" replace />} />
+      <Route path="/unsplash-app" element={<Homepage />} />
           <Route path="/results/:query" element={<ResaultPage  />} />
           <Route path="/imagedtail/:id" element={<ImageDetails />} />
           <Route path="/collections" element={<Collections />} />
