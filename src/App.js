@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/" element={<Navigate to="/unsplash-app" replace />} />
       <Route path="/unsplash-app" element={<Homepage />} />
           <Route path="/results/:query" element={<ResaultPage  />} />
           <Route path="/imagedtail/:id" element={<ImageDetails />} />
